@@ -85,12 +85,6 @@ class Application():
         elif self.curX < self.start_x and self.curY > self.start_y:
             combined(top=int(self.start_y),left=int(self.curX),width=int(self.start_x-self.curX),height=int(self.curY-self.start_y))
             
-            
-            #print(f"width:{int(self.start_x-self.curX)}, height:{int(self.curY-self.start_y)}")
-        #elif self.curX < self.start_x:
-            #combined(top=int(self.curY),left=int(self.curX),width=int(self.start_x-self.curX),height=int(self.curY-self.start_y))
-            #print(f"width:{int(self.start_x-self.curX)}, height:{int(self.curY-self.start_y)}")
-        
         
         return event
 
