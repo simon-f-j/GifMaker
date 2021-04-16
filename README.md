@@ -1,2 +1,2 @@
 # GifMaker
-GUI gif maker using the pillow python library
+A simple gifmaker resembling "Snipping tool" using mss, pillow and cv2 to capture images and process images.
